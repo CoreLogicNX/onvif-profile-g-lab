@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "onvif-profile-g-lab"
+version = "1.0.0"
+description = "Educational ONVIF Profile G recording discovery and RTSP replay diagnostics"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["onvif-zeep>=0.2.12,<1"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10"]
+
+[project.scripts]
+onvif-profile-g = "onvif_profile_g.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
