@@ -1,0 +1,8 @@
+SYNTHETIC EXAMPLE — not captured from a physical device
+Advertised services:
+  http://www.onvif.org/ver10/recording/wsdl
+  http://www.onvif.org/ver10/replay/wsdl
+Recording tokens:
+  [0] recording-example-001
+Replay URI: rtsp://192.0.2.10:554/replay
+URI returned. RTSP playback is NOT yet verified; use --ffprobe or VLC.
